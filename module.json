@@ -18,5 +18,5 @@
   "url": "https://github.com/foundryvtt-sinregistrar/dnd5e-2024-cleric-domains",
   "manifest": "https://raw.githubusercontent.com/foundryvtt-sinregistrar/dnd5e-2024-cleric-domains/main/module.json",
   "download": "https://github.com/foundryvtt-sinregistrar/dnd5e-2024-cleric-domains/releases/latest/download/dnd5e-2024-cleric-domains.zip",
-  "esmodules": []
+  "esmodules": ["scripts/main.mjs"]
 }

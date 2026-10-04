@@ -24,7 +24,9 @@ jobs:
       - name: Install validation dependencies
         run: npm ci
       - name: Validate module content
-        run: npm run validate
+        run: |
+          npm run validate
+          npm test
       - name: Verify tag matches manifest version
         env:
           RELEASE_TAG: ${{ github.ref_name }}
@@ -52,6 +54,7 @@ jobs:
       - name: Create GitHub release and upload assets
         uses: softprops/action-gh-release@v2
         with:
+          draft: true
           generate_release_notes: true
           files: |
             dist/dnd5e-2024-cleric-domains.zip
