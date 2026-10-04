@@ -22,3 +22,5 @@ jobs:
         run: npm ci
       - name: Validate compendium source and pack
         run: npm run validate
+      - name: Run automation unit tests
+        run: npm test

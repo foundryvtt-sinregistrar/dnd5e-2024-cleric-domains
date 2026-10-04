@@ -1,5 +1,6 @@
 import { access } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
+import { isDeepStrictEqual } from "node:util";
 import { ClassicLevel } from "classic-level";
 import { CONTENT_FOLDERS, CONTENT_ITEMS, MODULE_ID, PACK_COLLECTION } from "../../data/index.mjs";
 
@@ -17,9 +18,10 @@ for (const item of CONTENT_ITEMS) {
   for (const advancement of item.system?.advancement ?? []) for (const granted of advancement.configuration?.items ?? []) { if (!granted.uuid.startsWith(prefix) || !ids.has(granted.uuid.slice(prefix.length))) errors.push(`${item.name}: invalid ItemGrant target.`); }
 }
 const packPath = fileURLToPath(new URL("../../packs/classes24", import.meta.url));
-const db = new ClassicLevel(packPath, { valueEncoding: "json", readOnly: true }); const packed = new Set(); const folders = new Set();
-for await (const [key] of db.iterator({ gte: "!items!", lt: "!items!~" })) packed.add(String(key).slice(7));
+const db = new ClassicLevel(packPath, { valueEncoding: "json", readOnly: true }); const packed = new Set(); const packedItems = new Map(); const folders = new Set();
+for await (const [key, value] of db.iterator({ gte: "!items!", lt: "!items!~" })) { const id = String(key).slice(7); packed.add(id); packedItems.set(id, value); }
 for await (const [key] of db.iterator({ gte: "!folders!", lt: "!folders!~" })) folders.add(String(key).slice(9)); await db.close();
 if (packed.size !== CONTENT_ITEMS.length || [...ids].some(id => !packed.has(id))) errors.push("Pack Items are not synchronized with data.");
 if (folders.size !== CONTENT_FOLDERS.length || [...folderIds].some(id => !folders.has(id))) errors.push("Pack folders are not synchronized with data.");
+for (const source of CONTENT_ITEMS) { const expected = structuredClone(source); expected.effects = (expected.effects ?? []).map(effect => effect._id); expected.folder ??= null; expected.sort ??= 0; const actual = structuredClone(packedItems.get(source._id)); delete actual?._stats; if (!isDeepStrictEqual(actual, expected)) errors.push(`${source.name}: packed Item differs from data source.`); }
 if (errors.length) { console.error(errors.join("\n")); process.exitCode = 1; } else console.log("Validation passed: 19 Items, folders, activities, and ItemGrant links are valid.");
