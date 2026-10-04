@@ -1,0 +1,22 @@
+{
+  "id": "dnd5e-2024-cleric-domains",
+  "title": "D&D 2024 SubClasses - Cleric Domains",
+  "description": "Adds Knowledge, Nature, and Tempest domains adapted from the 2014 PHB to 2024 Cleric progression.",
+  "version": "0.0.1",
+  "authors": [{ "name": "foundryvtt-sinregistrar" }],
+  "compatibility": { "minimum": "14.367", "verified": "14.368" },
+  "relationships": {
+    "requires": [{ "id": "dnd-players-handbook", "type": "module", "compatibility": { "minimum": "2.2.0", "verified": "2.2.0" } }],
+    "systems": [{ "id": "dnd5e", "type": "system", "compatibility": { "minimum": "6.0.3", "verified": "6.0.3" } }]
+  },
+  "languages": [{ "lang": "en", "name": "English", "path": "lang/en.json" }],
+  "packs": [{
+    "name": "classes24", "label": "D&D 2024 - Cleric Domains", "path": "packs/classes24", "type": "Item",
+    "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }, "system": "dnd5e",
+    "flags": { "dnd5e": { "types": ["subclass", "feat"] } }
+  }],
+  "url": "https://github.com/foundryvtt-sinregistrar/dnd5e-2024-cleric-domains",
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-sinregistrar/dnd5e-2024-cleric-domains/main/module.json",
+  "download": "https://github.com/foundryvtt-sinregistrar/dnd5e-2024-cleric-domains/releases/latest/download/dnd5e-2024-cleric-domains.zip",
+  "esmodules": []
+}

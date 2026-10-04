@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:pack": "node dev-tools/buildScripts/build_pack.mjs",
+    "validate": "node dev-tools/buildScripts/validate_content.mjs",
+    "build:release": "python -B dev-tools/buildScripts/build_release.py"
+  },
+  "devDependencies": { "classic-level": "^3.0.0" }
+}
