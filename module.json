@@ -7,7 +7,7 @@
   "compatibility": { "minimum": "14.367", "verified": "14.368" },
   "relationships": {
     "requires": [{ "id": "dnd-players-handbook", "type": "module", "compatibility": { "minimum": "2.2.0", "verified": "2.2.0" } }],
-    "systems": [{ "id": "dnd5e", "type": "system", "compatibility": { "minimum": "6.0.3", "verified": "6.0.3" } }]
+    "systems": [{ "id": "dnd5e", "type": "system", "compatibility": { "minimum": "6.0.3", "verified": "6.0.6" } }]
   },
   "languages": [{ "lang": "en", "name": "English", "path": "lang/en.json" }],
   "packs": [{
