@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.14.0 - 2026-10-27
+
+- Verified compatibility with Foundry VTT 14.369 and D&D5e 6.0.6.
+
 ## 0.0.2 - 2026-10-04
 
 - Validated the complete Spanish Babele translation contract for all 19 compendium Items.
