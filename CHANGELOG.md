@@ -1,17 +1,25 @@
 # Changelog
 
-## 1.14.0 - 2026-10-27
+## [Unreleased]
+
+## [1.14.0] - 2026-10-27
+
+### Changed
 
 - Verified compatibility with Foundry VTT 14.369 and D&D5e 6.0.6.
 
-## 0.0.2 - 2026-10-04
+## [0.0.2] - 2026-10-04
+
+### Changed
 
 - Validated the complete Spanish Babele translation contract for all 19 compendium Items.
 - Documented stable identifiers and the supported mappings for source, activities, range, target, effects, and advancements.
 - Regenerated the LevelDB compendium from the canonical `data/` sources and repeated Foundry VTT 14 / dnd5e 6.0.3 manual checks.
 - Documented the external `ravanno-dnd5e-es` Babele compatibility warnings; they do not originate in this module.
 
-## 0.0.1 - 2026-10-04
+## [0.0.1] - 2026-10-04
+
+### Added
 
 - Added the Knowledge, Nature, and Tempest domains adapted to Cleric 2024.
 - Added optional automation assistance, native pack validation, release workflow, and subclass icons.
