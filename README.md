@@ -2,10 +2,13 @@
 
 **Español** | [English](README.en.md)
 
-![Foundry VTT](https://img.shields.io/badge/Foundry_VTT-14.367%2B-green)
-![dnd5e](https://img.shields.io/badge/dnd5e-6.0.3%2B-blue)
+![Foundry minimum](https://img.shields.io/badge/Foundry_min-14.367%2B-green)
+![Foundry verified](https://img.shields.io/badge/Foundry_verified-14.369-blue)
+![dnd5e minimum](https://img.shields.io/badge/dnd5e_min-6.0.3%2B-blue)
+![dnd5e verified](https://img.shields.io/badge/dnd5e_verified-6.0.6-blue)
 [![Última versión](https://img.shields.io/github/v/release/foundryvtt-sinregistrar/dnd5e-2024-cleric-domains?label=versi%C3%B3n)](https://github.com/foundryvtt-sinregistrar/dnd5e-2024-cleric-domains/releases/latest)
 [![Descargas](https://img.shields.io/github/downloads/foundryvtt-sinregistrar/dnd5e-2024-cleric-domains/latest/total?label=descargas)](https://github.com/foundryvtt-sinregistrar/dnd5e-2024-cleric-domains/releases/latest)
+[![Descargas totales](https://img.shields.io/github/downloads/foundryvtt-sinregistrar/dnd5e-2024-cleric-domains/total?label=descargas%20totales)](https://github.com/foundryvtt-sinregistrar/dnd5e-2024-cleric-domains/releases)
 
 Añade los dominios de clérigo del Conocimiento, la Naturaleza y la Tempestad del *Player's Handbook* de 2014 a la progresión de clérigo de 2024.
 
