@@ -2,6 +2,10 @@
 
 [Español](README.md) | **English**
 
+<p align="center">
+  <img src="docs/foundry/assets/banner-cleric-domains.webp" alt="D&D5e Cleric Domains: three classic Cleric domains">
+</p>
+
 ![Foundry minimum](https://img.shields.io/badge/Foundry_min-14.367%2B-green)
 ![Foundry verified](https://img.shields.io/badge/Foundry_verified-14.370-blue)
 ![dnd5e minimum](https://img.shields.io/badge/dnd5e_min-6.0.3%2B-blue)
@@ -60,6 +64,20 @@ Report or follow issues in the [module repository](https://github.com/foundryvtt
 ## Development
 
 The stable-ID and translation contract is documented in [LOCALIZATION.md](LOCALIZATION.md). The Babele Spanish translation is distributed as the separate `translate-dnd5e-cleric-domains-2024-es` module.
+
+## Screenshots
+
+The three domains included in the module:
+
+![Knowledge, Nature, and Tempest Domains](docs/foundry/assets/three-cleric-domains.png)
+
+Choosing a Cleric domain when the character reaches level 3, with the base compendium in English:
+
+![Level 3 Cleric domain selector in English](docs/foundry/assets/screenshots/Cleric-level3-choise-school-en.png)
+
+With the [Cleric Domains Spanish Translation](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-cleric-domains-2024-es) module and Babele enabled, the same selector is displayed in Spanish:
+
+[![Level 3 Cleric domain selector in Spanish](docs/foundry/assets/screenshots/Cleric-level3-choise-school-es.png)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-cleric-domains-2024-es)
 
 ## License and credits
 

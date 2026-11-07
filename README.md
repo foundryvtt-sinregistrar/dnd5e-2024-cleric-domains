@@ -2,6 +2,10 @@
 
 **Español** | [English](README.en.md)
 
+<p align="center">
+  <img src="docs/foundry/assets/banner-cleric-domains.webp" alt="D&D5e Cleric Domains: tres dominios clásicos de clérigo">
+</p>
+
 ![Foundry minimum](https://img.shields.io/badge/Foundry_min-14.367%2B-green)
 ![Foundry verified](https://img.shields.io/badge/Foundry_verified-14.370-blue)
 ![dnd5e minimum](https://img.shields.io/badge/dnd5e_min-6.0.3%2B-blue)
@@ -60,6 +64,20 @@ Consulta o comunica incidencias en el [repositorio del módulo](https://github.c
 ## Desarrollo
 
 La especificación de los identificadores estables y del contrato para traducciones está en [LOCALIZATION.md](LOCALIZATION.md). La traducción española mediante Babele se distribuye en el módulo independiente `translate-dnd5e-cleric-domains-2024-es`.
+
+## Capturas de pantalla
+
+Los tres dominios incluidos en el módulo:
+
+![Dominios del Conocimiento, la Naturaleza y la Tempestad](docs/foundry/assets/three-cleric-domains.png)
+
+Selección de un dominio de clérigo al alcanzar el nivel 3, con el compendio base en inglés:
+
+![Selector de dominio de clérigo de nivel 3 en inglés](docs/foundry/assets/screenshots/Cleric-level3-choise-school-en.png)
+
+Con la [traducción española de Cleric Domains](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-cleric-domains-2024-es) y Babele activados, esa misma selección se muestra en español:
+
+[![Selector de dominio de clérigo de nivel 3 en español](docs/foundry/assets/screenshots/Cleric-level3-choise-school-es.png)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-cleric-domains-2024-es)
 
 ## Licencia y créditos
 
