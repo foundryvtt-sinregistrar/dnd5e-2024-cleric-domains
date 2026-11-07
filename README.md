@@ -3,7 +3,7 @@
 **Español** | [English](README.en.md)
 
 ![Foundry minimum](https://img.shields.io/badge/Foundry_min-14.367%2B-green)
-![Foundry verified](https://img.shields.io/badge/Foundry_verified-14.369-blue)
+![Foundry verified](https://img.shields.io/badge/Foundry_verified-14.370-blue)
 ![dnd5e minimum](https://img.shields.io/badge/dnd5e_min-6.0.3%2B-blue)
 ![dnd5e verified](https://img.shields.io/badge/dnd5e_verified-6.0.6-blue)
 [![Última versión](https://img.shields.io/github/v/release/foundryvtt-sinregistrar/dnd5e-2024-cleric-domains?label=versi%C3%B3n)](https://github.com/foundryvtt-sinregistrar/dnd5e-2024-cleric-domains/releases/latest)
@@ -14,7 +14,7 @@ Añade los dominios de clérigo del Conocimiento, la Naturaleza y la Tempestad d
 
 ## Estado
 
-Compatible con Foundry VTT 14.367 o posterior y dnd5e 6.0.3 o posterior. La versión 1.14.0 se verificó con Foundry VTT 14.369 y dnd5e 6.0.6.
+Compatible con Foundry VTT 14.367 o posterior y dnd5e 6.0.3 o posterior. La versión 1.14.0 se verificó con Foundry VTT 14.370 y dnd5e 6.0.6.
 
 ## Requisitos
 
