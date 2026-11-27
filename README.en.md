@@ -9,7 +9,7 @@
 ![Foundry minimum](https://img.shields.io/badge/Foundry_min-14.367%2B-green)
 ![Foundry verified](https://img.shields.io/badge/Foundry_verified-14.370-blue)
 ![dnd5e minimum](https://img.shields.io/badge/dnd5e_min-6.0.3%2B-blue)
-![dnd5e verified](https://img.shields.io/badge/dnd5e_verified-6.0.6-blue)
+![dnd5e verified](https://img.shields.io/badge/dnd5e_verified-6.1.1-blue)
 [![Latest release](https://img.shields.io/github/v/release/foundryvtt-sinregistrar/dnd5e-2024-cleric-domains?label=release)](https://github.com/foundryvtt-sinregistrar/dnd5e-2024-cleric-domains/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/foundryvtt-sinregistrar/dnd5e-2024-cleric-domains/latest/total?label=downloads)](https://github.com/foundryvtt-sinregistrar/dnd5e-2024-cleric-domains/releases/latest)
 [![Total downloads](https://img.shields.io/github/downloads/foundryvtt-sinregistrar/dnd5e-2024-cleric-domains/total?label=total%20downloads)](https://github.com/foundryvtt-sinregistrar/dnd5e-2024-cleric-domains/releases)
@@ -18,7 +18,7 @@ Adds the 2014 Knowledge, Nature, and Tempest Cleric domains to the 2024 Cleric p
 
 ## Status
 
-Compatible with Foundry VTT 14.367 or newer and dnd5e 6.0.3 or newer. Version 1.14.0 was verified with Foundry VTT 14.370 and dnd5e 6.0.6.
+Compatible with Foundry VTT 14.367 or newer and dnd5e 6.0.3 or newer. Version 1.14.0 was verified with Foundry VTT 14.370 and dnd5e 6.1.1.
 
 ## Requirements
 
