@@ -34,3 +34,5 @@ __pycache__/ export-ignore
 .env.* export-ignore
 DEVELOPER.md export-ignore
 staged.txt export-ignore
+package.json export-ignore
+package-lock.json export-ignore
