@@ -18,7 +18,7 @@ Adds the 2014 Knowledge, Nature, and Tempest Cleric domains to the 2024 Cleric p
 
 ## Status
 
-Compatible with Foundry VTT 14.367 or newer and dnd5e 6.0.3 or newer. Version 1.14.0 was verified with Foundry VTT 14.370 and dnd5e 6.1.1.
+Compatible with Foundry VTT 14.367 or newer and dnd5e 6.0.3 or newer. Current version: 1.14.1. Its content was verified as 1.14.0 with Foundry VTT 14.370 and dnd5e 6.1.1.
 
 ## Requirements
 

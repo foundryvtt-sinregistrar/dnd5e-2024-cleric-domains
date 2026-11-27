@@ -2,9 +2,15 @@
 
 ## [Unreleased]
 
+## [1.14.1] - 2026-11-27
+
 ### Changed
 
-- Verified compatibility with Foundry VTT 14.370 and D&D5e 6.0.6.
+- Verified compatibility with Foundry VTT 14.370 and D&D5e 6.1.1.
+
+### Fixed
+
+- Preserve LevelDB bytes in Windows Git archives and exclude development files from distribution.
 
 ## [1.14.0] - 2026-10-27
 

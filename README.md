@@ -18,7 +18,7 @@ Añade los dominios de clérigo del Conocimiento, la Naturaleza y la Tempestad d
 
 ## Estado
 
-Compatible con Foundry VTT 14.367 o posterior y dnd5e 6.0.3 o posterior. La versión 1.14.0 se verificó con Foundry VTT 14.370 y dnd5e 6.1.1.
+Compatible con Foundry VTT 14.367 o posterior y dnd5e 6.0.3 o posterior. Versión actual: 1.14.1. Su contenido se verificó como 1.14.0 con Foundry VTT 14.370 y dnd5e 6.1.1.
 
 ## Requisitos
 
