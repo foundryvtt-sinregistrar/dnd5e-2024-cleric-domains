@@ -1,5 +1,7 @@
 # Normalize text files to LF in Git.
 * text=auto
+# Preserve LevelDB bytes, including CURRENT, when Git exports on Windows.
+packs/** -text
 *.json text eol=lf
 *.js text eol=lf
 *.mjs text eol=lf
